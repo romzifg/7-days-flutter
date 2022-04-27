@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class FirstStarted extends StatelessWidget {
   @override
@@ -27,23 +28,23 @@ class FirstStarted extends StatelessWidget {
                   'Maximize Revenue',
                   style: GoogleFonts.poppins(
                     color: Colors.white,
-                    fontSize: 18,
+                    fontSize: 18.sp,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
-                const SizedBox(
-                  height: 17,
+                SizedBox(
+                  height: 17.h,
                 ),
                 Text(
                   'Gain more profit from cryptocurrency without any risk involved',
                   style: GoogleFonts.poppins(
                     color: Colors.white,
-                    fontSize: 14,
+                    fontSize: 14.sp,
                   ),
                   textAlign: TextAlign.center,
                 ),
-                const SizedBox(
-                  height: 50,
+                SizedBox(
+                  height: 50.h,
                 ),
                 InkWell(
                   onTap: () {
